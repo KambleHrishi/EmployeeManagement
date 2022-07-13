@@ -23,7 +23,7 @@ for (int day = 0; day < NUM_OF_WORKING_DAYS; day++)
     }
 
     empWage = empHrs * EMP_RATE_PER_HOUR;
-    totalEmpWage += empWage; //+- is a shorthand operator
+    totalEmpWage += empWage; //+= is a shorthand operator
     Console.WriteLine("Emp Wage : " + empWage);
 }
 Console.WriteLine("Total Emp Wage: "+totalEmpWage);
